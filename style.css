@@ -94,13 +94,15 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 100px;
+    padding: 100px 100px;
     gap: 20px;
 }
 
 .drivers {
   display: flex;
   gap: 32px;
+  padding-top: 50px;
+  padding-bottom: 150px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -114,6 +116,7 @@ button {
   width: 300px;
   height: 400px;
   object-fit: cover;
+  border-radius: 10%;
 }
 
 .photo-credit {
@@ -126,3 +129,74 @@ button {
   margin-top: 16px;
   font-size: 14px;
 }
+
+.senna-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 100px 250px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-weight: 300;
+    font-size: 36px;
+
+}
+.senna {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 80px;
+    padding: 0px 50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #3882f6;
+    padding: 50px 50px;
+    margin: 100px 200px;
+    border-radius: 20px;
+}
+
+.fuel {
+    font-size: 24px;
+    font-weight: bold;
+    color:#f9faf8;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.sign {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 10px;
+    color:#e5e7eb
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color:#f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 12px 24px;
+    border: 2px solid white;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 16px 100px;
+    background-color: #1F2937;
+    color:#f9faf8;
+}
+
